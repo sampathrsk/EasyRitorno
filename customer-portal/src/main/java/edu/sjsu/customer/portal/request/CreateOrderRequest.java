@@ -1,7 +1,9 @@
 package edu.sjsu.customer.portal.request;
 
 import java.io.Serializable;
-
+/**
+	 * @author Anuradha Rajashekar
+	 */
 
 public class CreateOrderRequest implements Serializable {
 
