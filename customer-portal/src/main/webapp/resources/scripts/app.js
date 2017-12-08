@@ -69,6 +69,9 @@ app.controller("homeCtrl",['$scope', '$http',
         $scope[value] = !$scope[value];
     };
     
+		/**
+	 * @author Anuradha Rajashekar
+	 */
     $scope.createCustomer = function() {
 		var req = {
 					data : {
