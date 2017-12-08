@@ -61,6 +61,11 @@ public class CustomerAPIServiceImpl implements CustomerAPIService {
 		}
 		return customerDTO;
 	}
+	
+	/**
+	 * 
+	 * @author Ashwini Shankar Narayan
+	 */
 
 	@Override
 	public OrdersDTO createOrder(CreateOrderRequest request) {
@@ -89,6 +94,11 @@ public class CustomerAPIServiceImpl implements CustomerAPIService {
 		}
 		return ordersDTO;
 	}
+	
+	/**
+	 * 
+	 * @author Ashwini Shankar Narayan
+	 */
 
 	@Override
 	public GetOrdersResponse getOrdersList(String custId) {
