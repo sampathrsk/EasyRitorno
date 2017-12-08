@@ -18,13 +18,19 @@ public class OrdersDAOImpl implements OrdersDAO {
 
 	@Autowired
 	MongoOperations mongoOperations;
-
+        /**
+	 * 
+	 * @author Ashwini Shankar Narayan
+	 */
 	@Override
 	public Orders insertOrder(Orders order) {
 		mongoOperations.insert(order);
 		return order;
 	}
-
+        /**
+	 * 
+	 * @author Ashwini Shankar Narayan
+	 */
 	@Override
 	public List<Orders> getOrders(String custId) {
 		Query searchQuery = new Query(Criteria.where("customer._id").is(new ObjectId(custId)));
