@@ -35,3 +35,11 @@ The application uses relational database for storage. It will use MySQL Server v
  
 - Logging
 Spring supports the use of the Apache Commons Logging API. This API provides the ability to use Java 1.4 loggers, the simple Commons loggers, and Apache Log4J loggers.
+
+## Architecture Diagram
+
+### Paypal Integration Architecture
+![Paypal Architecture](https://user-images.githubusercontent.com/1582196/34774678-1f56a91e-f5c5-11e7-80ee-ec3937411c09.png)
+### Single-Sign On Architecture
+![SSO Architecture](https://user-images.githubusercontent.com/1582196/34774699-326b0c0c-f5c5-11e7-9e0f-0b9bbd012205.png)
+
