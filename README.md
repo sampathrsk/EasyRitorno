@@ -19,7 +19,6 @@ The sample application is developed to work in any JEE web application container
 - Database Technology
 The application uses relational database for storage. It will use MySQL Server version 5.7.19. Sample database would be provided.
 - Development Environment
-The following tools will be used
 1.	Java JDK 1.8
 2.	Apache Tomcat 8.5
 3.    Spring 3.1.2
