@@ -28,7 +28,7 @@
 	</properties>
 
 	<modules>
-		<module>dev-portal</module>
+		
 		<module>customer-portal</module>
 	</modules>
 
